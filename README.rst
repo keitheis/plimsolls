@@ -1,7 +1,8 @@
 plimsolls
 =========
 
-Presentation slides mixed with Plim and Shower
+Presentation helpers based on Plim
+
 
 Usage
 -----
