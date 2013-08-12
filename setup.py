@@ -5,7 +5,7 @@ import plimsolls
 
 setup(
     name='plimsolls',
-    version='0.1',
+    version='0.2-dev',
     description="Presentation helpers based on Plim",
     long_description=(open('README.rst').read() + '\n\n' +
                       open('CHANGES.rst').read() + '\n\n' +
