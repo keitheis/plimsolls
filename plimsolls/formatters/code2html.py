@@ -54,6 +54,8 @@ class Code2HtmlFormatter(HtmlFormatter):
                     spaces = '&nbsp;' * (self.levelspaces * diff_levels
                                          + extra_spaces)
                 # it's a line of formatted code
+                line = line.replace("    ", "&nbsp;&nbsp;&nbsp; ")
+                line = line.replace("  ", "&nbsp; ")
                 line = default_indent + spaces + line + '<br/>'
             yield i, line
         yield 0, '</div>'
