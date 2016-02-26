@@ -10,7 +10,7 @@
 """
 
 
-__version__ = '0.2-dev'
+__version__ = '0.3-dev'
 
 # high level interface
 from plimsolls import formatters

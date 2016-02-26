@@ -15,8 +15,8 @@ def reformat(context, language_name, code_block,
              css_class="codehilite"):
     lexer = get_lexer_by_name(language_name)
     formatter = Code2HtmlFormatter(linenos=line_numbers,
-                                indentspaces=indent_spaces,
-                                cssclass=css_class)
+                                   indentspaces=indent_spaces,
+                                   cssclass=css_class)
     formatter.levelspaces = indent_spaces
     formatter.defaultindent = default_indent
     result = highlight(code_block, lexer, formatter)
@@ -50,7 +50,7 @@ class Code2HtmlFormatter(HtmlFormatter):
                             level - self._first_indent_level)
                     diff_spaces = level - self._first_indent_level
                     extra_spaces = diff_spaces % self._first_diff_spaces
-                    diff_levels = diff_spaces / self._first_diff_spaces
+                    diff_levels = diff_spaces // self._first_diff_spaces
                     spaces = '&nbsp;' * (self.levelspaces * diff_levels
                                          + extra_spaces)
                 # it's a line of formatted code

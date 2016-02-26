@@ -5,7 +5,7 @@ import plimsolls
 
 setup(
     name='plimsolls',
-    version='0.2-dev',
+    version=plimsolls.__version__,
     description="Presentation helpers based on Plim",
     long_description=(open('README.rst').read() + '\n\n' +
                       open('CHANGES.rst').read() + '\n\n' +
@@ -19,12 +19,12 @@ setup(
     zip_safe=False,
     platforms='any',
     install_requires=[
-        'Plim>=0.8.4',
-        'Pygments>=1.4'
+        'Plim>=0.9.12',
+        'Pygments>=2.0.2'
     ],
     keywords="html presentations slides plim templates",
     classifiers=[
-        'Development Status :: 1 - Planning',
+        'Development Status :: 3 - Alpha',
         'Topic :: Text Processing',
         'Topic :: Multimedia :: Graphics :: Presentation',
         'Intended Audience :: Developers',
@@ -35,8 +35,9 @@ setup(
         'Programming Language :: Python :: 3',
         'Programming Language :: Python :: 3.2',
         'Programming Language :: Python :: 3.3',
+        'Programming Language :: Python :: 3.4',
+        'Programming Language :: Python :: 3.5',
         'Programming Language :: Python :: 2',
-        'Programming Language :: Python :: 2.6',
         'Programming Language :: Python :: 2.7'
     ],
 )

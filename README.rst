@@ -7,11 +7,11 @@ Presentation helpers based on Plim
 Usage
 -----
 
-Used in Plim::
+File: example.plim::
 
     -namespace module="plimsolls.formatters.code2html" name="code2html"
 
-    h2 Pygments Example: Result
+    h2 Pygments Example:
     pre
       -py
         code = """
