@@ -24,7 +24,7 @@ setup(
     ],
     keywords="html presentations slides plim templates",
     classifiers=[
-        'Development Status :: 3 - Alpha',
+        'Development Status :: 4 - Beta',
         'Topic :: Text Processing',
         'Topic :: Multimedia :: Graphics :: Presentation',
         'Intended Audience :: Developers',
@@ -33,11 +33,6 @@ setup(
         'License :: OSI Approved :: MIT License',
         'Programming Language :: Python',
         'Programming Language :: Python :: 3',
-        'Programming Language :: Python :: 3.2',
-        'Programming Language :: Python :: 3.3',
-        'Programming Language :: Python :: 3.4',
-        'Programming Language :: Python :: 3.5',
-        'Programming Language :: Python :: 2',
         'Programming Language :: Python :: 2.7'
     ],
 )
